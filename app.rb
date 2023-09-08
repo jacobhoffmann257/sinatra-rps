@@ -5,12 +5,14 @@ get("/") do
  erb(:main)
 end
 get("/rock") do
-erb(:rock)
-
+  rps = ["Rock","Paper","Scissors"]
+  erb(:rock)
 end
 get("/scissors") do
+  rps = ["Rock","Paper","Scissors"]
 erb(:scissors)
 end
 get("/paper") do
-erb(:paper)
+  rps = ["Rock","Paper","Scissors"]
+  erb(:paper)
 end
